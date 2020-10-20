@@ -7,6 +7,63 @@
 button:focus{
     outline: none; 
 }
+ul{
+    list-style: none;
+    
+}
+header{
+    padding: 2em;  
+}
+header.fixed{
+    position: fixed;
+    top: 0;  
+    left: 0 ;
+    width: 100% ;
+    background: #fff;
+    z-index: 99;  
+}
+header .menu li{
+    padding: .5em 1.5em;  
+
+}
+header .menu li a{
+    color: #000; 
+}
+header .logo span{
+    font-size: 2em; 
+    font-family: "Nunito-Bold";
+}
+.box-search{
+    position: relative;  
+}
+.box-search button{
+    position: absolute;  
+    border: none;  
+    background: transparent;  
+    top: 50%;  
+    right: 1em;
+    font-size: 1.2em;  
+    color: #cccccc;   
+    transform: translateY(-50%); 
+    cursor: pointer;  
+}
+.box-search input{
+    padding: .4em 1.5em ; 
+    width: 22em;
+    border-radius: 3em;  
+    border: none;  
+    background: #f7f7f7;  
+}
+.box-search input::placeholder{
+    color: #636363;  
+    font-size: .9em;  
+}
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 14px ;
+    }
+    
+}
 @media only screen and (min-width: 1200px) {
     html{
         font-size: 16px ;
@@ -14,14 +71,18 @@ button:focus{
     
 }
 @media only screen and (min-width: 1450px) {
-    html{
-        font-size: 18px ;
+/*     html{
+        font-size: 16px ;
     }
-    
+    .container{
+        max-width: 1320px;  
+    } */
 }
 @media only screen and (min-width: 1600px) {
-    html{
-        font-size: 25px ;
+/*     html{
+        font-size: 20px ;
     }
-    
+    .container{
+        max-width: 1440px;  
+    } */
   }
