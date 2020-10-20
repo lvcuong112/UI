@@ -11,6 +11,17 @@ ul{
     list-style: none;
     
 }
+.seemore{
+    display: inline-block;
+    padding: .5em 2em;
+    color: #3e4c66;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 1.5em;
+
+}
+.seemore:hover{
+    text-decoration: none;
+}
 header{
     padding: 2em;  
 }
@@ -33,6 +44,7 @@ header .logo span{
     font-size: 2em; 
     font-family: "Nunito-Bold";
 }
+
 .box-search{
     position: relative;  
 }
@@ -57,6 +69,39 @@ header .logo span{
 .box-search input::placeholder{
     color: #636363;  
     font-size: .9em;  
+}
+.footer{
+    padding :5em 0 2em 0;  
+    background: #f7f7f7; 
+}
+footer h5{
+   font-family: "Nunito-SemiBold";
+   margin-bottom: 1em; 
+   font-size: 1.4em;  
+}
+footer ul li a , footer .desc{
+    color: #9b9b9b; 
+}
+footer ul li a:hover{
+    text-decoration: none; 
+    color: #3e4c66;  
+}
+footer .contact li{
+    display: flex; 
+    justify-content: center;  
+    align-items:center;  
+    margin-right: 1em;  
+    width: 2.5em; 
+    height: 2.5em;  
+    background: #fff;  
+    border-radius: 50%;   
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+footer .coppy-right{
+    padding: .4em;  
+    font-size: .9em;  
+    color: #000; 
+    background: #ebebeb; 
 }
 @media only screen and (min-width: 1200px) {
     html{

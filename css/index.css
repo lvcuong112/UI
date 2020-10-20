@@ -164,6 +164,7 @@
 }
 .category{
     padding: 4em 0 2em 0 ;
+    margin-bottom: 10em ;
     background-image: url('https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 .cate-box{
@@ -218,4 +219,54 @@
 }
 .cate-box .box-item a:hover{
     text-decoration: none; 
+}
+.cities .product{
+    height: 25em;  
+    border-radius: 1em ;
+}
+.relation-address{
+    padding: 5em 0 2em 0 ; 
+    background: url('https://images.pexels.com/photos/4618597/pexels-photo-4618597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat ;
+    background-size: cover;  
+}
+.relation-address button{
+    border: none;  
+    padding: .7em 1.1em ;
+    border-radius: 2em;  
+    background:#ff5a5f  ;
+    color: #fff; 
+    cursor: pointer;
+}
+.blog-index{
+    padding: 5em 0 2em 0 ; 
+}
+.blog-index .blog{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); 
+    
+
+}
+.blog-index .blog .content{
+    padding: 1em;  
+       
+}
+.blog-index .blog .date{
+    font-size: .7em; 
+    font-family: "Nunito-SemiBold";
+    color: #c0c0c0; 
+}
+.blog-index .title{
+    font-family: "Nunito-Bold";
+    font-size: 1.2em;  
+}
+.blog-index .desc{
+    font-size: .9em;  
+    color: #404040; 
+}
+.blog-index .blog button{
+    padding: .4em 1.2em; 
+    font-size: .9em;  
+    border-radius: 1.5em; 
+    border: none;  
+    background: #ff5a5f;  
+    color: #fff;  
 }
