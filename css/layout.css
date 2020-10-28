@@ -22,6 +22,22 @@ ul{
 .seemore:hover{
     text-decoration: none;
 }
+.select2{
+    width: 100%; 
+    
+}
+.select2-container .select2-selection--single{
+    height: auto ;
+    padding: .5em  ;
+}
+.select2-container--default .select2-selection--single{
+    border: 1px solid #e0e0e0;  
+    border-radius: .5em;   
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 8px;  
+    right: 8px;
+}
 header{
     padding: 2em;  
 }
@@ -72,19 +88,20 @@ header .logo span{
 }
 .footer{
     padding :5em 0 2em 0;  
-    background: #f7f7f7; 
+    background: #24324a; 
 }
 footer h5{
    font-family: "Nunito-SemiBold";
    margin-bottom: 1em; 
    font-size: 1.4em;  
+   color: #fff; 
 }
 footer ul li a , footer .desc{
-    color: #9b9b9b; 
+    color: #d4d4d4; 
 }
 footer ul li a:hover{
     text-decoration: none; 
-    color: #3e4c66;  
+    color: #ffffff;  
 }
 footer .contact li{
     display: flex; 
@@ -97,11 +114,14 @@ footer .contact li{
     border-radius: 50%;   
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
+footer .contact li:hover a {
+    color: #24324a;
+}
 footer .coppy-right{
     padding: .4em;  
     font-size: .9em;  
-    color: #000; 
-    background: #ebebeb; 
+    color: #fff; 
+    background: #1d273a; 
 }
 @media only screen and (min-width: 1200px) {
     html{
