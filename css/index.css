@@ -78,6 +78,13 @@
 .box-title p{
     color: #5b5b5b; 
 }
+.sub-title .title{
+    font-family: "Nunito-Bold";
+    font-size: 1.5em; 
+}
+.sub-title .desc{
+    font-size: 1em;  
+}
 .box-title .viewall{
     color:#000;  
     font-family: "Nunito-SemiBold";
