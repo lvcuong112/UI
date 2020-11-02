@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Thuê phòng </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/page.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container-fluid d-flex justify-content-between align-items-center container-lg">
+            <div class="logo d-flex align-item-center">
+                <a href="/Home"><img src="https://grandetest.com/theme/findhouse-html/images/header-logo2.png" /></a>
+                <span class="ml-2"> Find House </span>
+                <div class="box-search ml-5 d-flex align-item-center">
+                     <input type="text" name="search" placeholder="What are you looking for?">
+                     <button> <i class="fas fa-search"></i> </button>
+                </div>
+            </div>
+            <ul class="menu d-none d-lg-flex m-0">
+                <li>
+                    <a href="#"> Trang chủ</a>
+                </li>
+                <li>
+                    <a href="#"> Thuê nhà </a>
+                </li>
+                <li>
+                    <a href="#"> BLog </a>
+                </li>
+                <li>
+                    <a href="#"> Liên hệ </a>
+                </li>
+            </ul>
+            <!-- <button class="btn-menu-moblie d-block d-lg-none">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button> -->
+        </div>
+    </header>
+    <section class="user-rent">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="login-suggest">
+                        <h3> Đăng nhập để tận hưởng các ưu đãi của thành viên </h3>
+                        <p> Đăng ký thành viên, trải nhiệm đột phát, đặt phòng nhanh hơn, tiết kiệm chi phí.</p>
+                        <button> Đăng nhập </button>
+                    </div>
+                    <div class="service mt-5">
+                        <div class="box-title mt-3 mb-4">
+                            <h2> Điều khoản dịch vụ </h2>
+                        </div>
+                        <div class="content">
+                            <p> <strong> Trách nhiệm vật chất</strong></p>
+                            <p> Khách hàng chịu mọi trách nhiệm thiệt hại về tài sản đã gây ra tại chỗ ở trong thời gian lưu trú.</p>
+                            <p> <strong> Nội quy chỗ ở </strong></p>
+                            <p >- Không tổ chức tiệc - Không mang theo thú cưng - Không hút thuốc lá và sử dụng các chất cấm.</p>
+                        </div>
+                    </div>
+                    <div class="user-info mt-5">
+                        <div class="box-title mt-3 mb-4">
+                            <h2> Thông tin của bạn  </h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for=""> Tên khách hàng </label>
+                                    <input type="text" placeholder="Tên trên CMND/Thẻ căn cước">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for=""> Số điện thoại </label>
+                                    <input type="text" placeholder="098989999">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for=""> Địa chỉ Email </label>
+                                    <input type="text" placeholder="abc@gmail.com">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group mb-4">
+                                    <label for=""> <input type="checkbox"> Tôi đồng ý với các điều khoản dịch vụ.</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group mb-0">
+                                    <button> Đặt phòng ngay</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-4">
+                    <div class="box-title mb-4">
+                        <h2> Chi tiết đặt phòng </h2>
+                    </div>
+                    <div class="box-detail">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <p class="title">Vung Tau Milan Homestay 2 - B4-12 Melody Appartment (new)</p>
+                                <p class="address m-0"> <i class="fas fa-map-marker-alt"></i> Vũng Tàu, Bà Rịa Vũng Tàu, Vietnam
+                                </p>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="w-100">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="info">
+                            <p><i class="fas fa-house-user"></i> <strong> 3 đêm</strong> 02/11/2020 - 03/11/2020</p>
+                            <p ><i class="fas fa-user"></i> <strong> 5 người lớn, 3 trẻ em</strong></p>
+                        </div>
+                        <hr> 
+                        <ul class="table-price">
+                            <li class="d-flex justify-content-between">
+                                 <span> Giá thuê 3 đêm  </span>
+                                 <strong> 450,000đ  </strong>
+                            </li> 
+                            <li class="d-flex justify-content-between">
+                                 <span> Phí dọn dẹp  </span>
+                                 <strong> 1,100,000đ  </strong>
+                             </li> 
+                             <li class="d-flex justify-content-between">
+                                 <span> Phí dịch vụ   </span>
+                                 <strong> 250,000đ  </strong>
+                             </li> 
+                             <li class="d-flex justify-content-between">
+                                 <span> Phí khách tăng thêm </span>
+                                 <strong> 250,000đ  </strong>
+                             </li> 
+                         </ul>
+                         <hr>
+                         <div class="d-flex justify-content-between">
+                            <strong> Tổng tiền</strong>
+                            <strong>  1,880,000</strong>
+                         </div>
+                         <hr>
+                         <div class="cancel">
+                            <div class="sub-title">
+                                <p class="title m-0"> Chính sách hủy phòng</p>
+                                <p class="m-0">
+                                    <strong>Linh hoạt: </strong>
+                                    Miễn phí hủy phòng trong vòng 48h sau khi đặt phòng thành công và trước 1 ngày so với thời gian check-in. Sau đó, hủy phòng trước 1 ngày so với thời gian check-in, được hoàn lại 100% tổng số tiền đã trả (trừ phí dịch vụ). 
+                                    <a href="#">Chi tiết.</a>
+                                </p>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h5> Về chúng tôi </h5>
+                        <div class="desc">
+                            We’re reimagining how you buy, sell and rent. It’s now easier to get into a place you love. So let’s do this, together.
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5> Quick links</h5>
+                        <ul>
+                            <li><a href="#"> Thuê nhà </a></li>
+                            <li><a href="#"> Mua nhà </a></li>
+                            <li><a href="#"> Có nhà cho thuê </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5> Quick links</h5>
+                        <ul>
+                            <li><a href="#"> Thuê nhà </a></li>
+                            <li><a href="#"> Mua nhà </a></li>
+                            <li><a href="#"> Có nhà cho thuê </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5> Liên hệ  </h5>
+                        <ul class="contact d-flex ">
+                            <li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
+                            <li><a href="#"> <i class="fab fa-youtube"></i> </a></li>
+                            <li><a href="#"> <i class="fab fa-twitter"></i> </a></li>
+                            <li><a href="#"> <i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <p class="text-center m-0 coppy-right"> Coppy right @2020 by UI</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script>
+        fixedHeader();  
+        customSelect2(); 
+        setSlickImages(); 
+        setSlickFeature(); 
+        function fixedHeader(){
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('header').addClass('fixed');
+                } else {
+                    $('header').removeClass('fixed');
+                }
+            });
+        }
+        function customSelect2(){
+            $(".select2").select2({
+                width: 'resolve' 
+            });
+        }
+        function setSlickImages() {
+            $(".slick-images").slick({
+                dots: false,
+                infinite: true,
+                autoplay: true,
+                speed: 400,
+                autoplaySpeed: 5000,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        }
+        function setSlickFeature() {
+            $(".product-slick").slick({
+                dots: false,
+                infinite: true,
+                autoplay: true,
+                speed: 400,
+                autoplaySpeed: 5000,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        }
+    </script>
+</body>
+</html>

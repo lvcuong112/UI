@@ -28,16 +28,16 @@
             </div>
             <ul class="menu d-none d-lg-flex m-0">
                 <li>
-                    <a href="#"> Trang chủ</a>
+                    <a href="index.html"> Trang chủ</a>
                 </li>
                 <li>
-                    <a href="#"> Thuê nhà </a>
+                    <a href="Rent.html"> Thuê nhà </a>
                 </li>
                 <li>
-                    <a href="#"> BLog </a>
+                    <a href="/"> BLog </a>
                 </li>
                 <li>
-                    <a href="#"> Liên hệ </a>
+                    <a type="button" class="btn-contact"> Liên hệ </a>
                 </li>
             </ul>
             <!-- <button class="btn-menu-moblie d-block d-lg-none">
@@ -121,7 +121,7 @@
         <div class="box-title mb-4">
             <h2> Sản phẩm thịnh hành  </h2>
             <div class="d-flex justify-content-between">
-                <p class="m-0"> Những sản phẩm có nhiều người mua nhất? </p>
+                <p class="m-0"> Chỗ nghỉ được quan tâm nhiều nhất? </p>
                 <p class="m-0"> <a href="#" class="viewall"> View All <span> <i class="fas fa-chevron-right"></i> </span></a></p>
             </div>
         </div>
@@ -520,7 +520,9 @@
                 ]
             });
         }
-        
+        $(document).on('click', '.btn-contact', function(){
+           $(window).scrollTop($('body').height());   
+        });  
     </script>
 </body>
 </html>
